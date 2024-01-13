@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap");
 header {
   width: 1140px;
   margin: 0 auto;
@@ -98,13 +99,14 @@ main .section-1 .container-1 .p-lorem-yashil {
 }
 main .section-1 .container-1 .lorem2 {
   position: absolute;
-  width: 534px;
+  width: 564px;
   height: 58px;
-  margin-left: -430px;
+  margin-left: -470px;
   margin-top: -220px;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 18px;
   line-height: 32px;
+  font-family: "Noto Sans", sans-serif;
   color: #374A3D;
 }
 main .section-1 .container-1 .button-right {
@@ -141,8 +143,6 @@ main .section-2 .container-2 {
   margin-left: 70px;
   margin-top: 61px;
   border-radius: 5px;
-  -webkit-box-shadow: 0px 6px 50px 11px rgba(34, 60, 80, 0.2);
-  -moz-box-shadow: 0px 6px 50px 11px rgba(34, 60, 80, 0.2);
   box-shadow: 0px 6px 50px 11px rgba(34, 60, 80, 0.2);
 }
 main .section-2 .container-2 .img-leaf {
@@ -170,6 +170,4 @@ main .section-2 .container-2 .p-we2 {
   font-family: "Libre Franklin", sans-serif;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Flex", sans-serif;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
