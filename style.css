@@ -19,9 +19,9 @@ header .container .container-green {
   margin-left: -200px;
 }
 header .container .container-green img {
-  width: 134px;
+  width: 100px;
   height: 229px;
-  margin-left: 92px;
+  margin-left: 95px;
   margin-top: 170px;
 }
 header .container .img-logo {
@@ -64,7 +64,7 @@ header .container .navbar .button {
 }
 header .container .navbar .yellow-img {
   margin-top: -150px;
-  margin-left: -92px;
+  margin-left: -102px;
 }
 
 main .section-1 {
@@ -166,8 +166,834 @@ main .section-2 .container-2 .p-we2 {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  font-family: "Lato", sans-serif;
-  font-family: "Libre Franklin", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-family: "Roboto Flex", sans-serif;
+  font-family: "Fredoka", sans-serif;
+}
+main .section-2 .container-2 .span-item {
+  position: absolute;
+  font-size: 60px;
+  font-weight: 500;
+  color: #0CA941;
+  margin-left: 450px;
+  margin-top: -140px;
+  font-family: "Fredoka", sans-serif;
+  background-image: url(/imges/shadow.png);
+  background-repeat: no-repeat;
+  background-size: 90px;
+  background-position: center;
+}
+main .section-2 .container-2 .p-25 {
+  width: 141px;
+  font-weight: 600;
+  color: #707070;
+  margin-left: 450px;
+  margin-top: -70px;
+}
+main .section-2 .container-2 .span-item-2 {
+  position: absolute;
+  font-size: 60px;
+  font-weight: 500;
+  color: #0CA941;
+  margin-left: 650px;
+  margin-top: -120px;
+  font-family: "Fredoka", sans-serif;
+  background-image: url(/imges/shadow.png);
+  background-repeat: no-repeat;
+  background-size: 90px;
+  background-position: center;
+}
+main .section-2 .container-2 .p-10 {
+  width: 141px;
+  font-weight: 600;
+  color: #707070;
+  margin-left: 650px;
+  margin-top: -50px;
+}
+main .section-2 .container-2 .span-item-3 {
+  position: absolute;
+  font-size: 60px;
+  font-weight: 500;
+  color: #0CA941;
+  margin-left: 830px;
+  margin-top: -120px;
+  font-family: "Fredoka", sans-serif;
+  background-image: url(/imges/shadow.png);
+  background-repeat: no-repeat;
+  background-size: 90px;
+  background-position: center;
+}
+main .section-2 .container-2 .p-60 {
+  width: 141px;
+  font-weight: 600;
+  color: #707070;
+  margin-left: 830px;
+  margin-top: -50px;
+}
+main .section-list {
+  display: flex;
+  justify-content: center;
+}
+main .section-list .container-section {
+  width: 1100px;
+  height: 527px;
+  margin-top: 114px;
+}
+main .section-list .container-section .backraund-img {
+  margin-left: -220px;
+  margin-top: -380px;
+}
+main .section-list .container-section .section-list-img {
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  margin-top: 10px;
+  margin-left: -720px;
+}
+main .section-list .container-section .p-we-are {
+  width: 353px;
+  margin-top: -830px;
+  margin-left: 660px;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #374A3D;
+}
+main .section-list .container-section .p-gilroy {
+  width: 410px;
+  margin-left: 660px;
+  margin-top: -20px;
+  color: #678570;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+}
+main .section-list .container-section .read-more-button {
+  margin-left: 660px;
+  margin-top: 40px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #0CA941;
+  color: #374A3D;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  width: 179px;
+  height: 79px;
+}
+main .section-list .container-section .img-strel {
+  margin-left: -40px;
+}
+main .section-list .container-section .left-st-img {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 70px;
+}
+main .Professional-Service-section {
+  display: flex;
+  justify-content: center;
+}
+main .Professional-Service-section .container-Professional-Service {
+  width: 1200px;
+  height: 609px;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+main .Professional-Service-section .container-Professional-Service .p-professional {
+  margin-top: 90px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 60px;
+  font-family: "Fredoka", sans-serif;
+  color: #374A3D;
+}
+main .Professional-Service-section .container-Professional-Service .p-there-are {
+  width: 420px;
+  font-weight: 500;
+  margin-top: -30px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #678570;
+  font-family: "Fredoka", sans-serif;
+}
+main .Professional-Service-section .container-Professional-Service .p-mouris-vel {
+  width: 410px;
+  font-weight: 500;
+  margin-top: 45px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #678570;
+  font-family: "Fredoka", sans-serif;
+}
+main .Professional-Service-section .container-Professional-Service .button-professional {
+  width: 179px;
+  height: 69px;
+  margin-top: 40px;
+  border-radius: 70%;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #0CA941;
+  color: #374A3D;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+}
+main .Professional-Service-section .container-Professional-Service .img-profes {
+  margin-left: -40px;
+}
+main .Professional-Service-section .container-Professional-Service .img-grou {
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+main .Professional-Service-section .container-Professional-Service .img-backround-left {
+  position: absolute;
+  width: 400px;
+  height: 609px;
+  margin-left: 450px;
+  margin-top: -440px;
+}
+main .Professional-Service-section .container-Professional-Service .img-orenge {
+  position: absolute;
+  margin-left: 560px;
+  margin-top: -290px;
+}
+main .Professional-Service-section .container-Professional-Service .img-green {
+  position: absolute;
+  margin-left: 850px;
+  margin-top: -130px;
+}
+main .Professional-Service-section .container-Professional-Service .img-green2 {
+  position: absolute;
+  margin-left: 540px;
+  margin-top: -40px;
+}
+main .Professional-Service-section .container-Professional-Service .card-pruning {
+  position: absolute;
+  width: 268px;
+  height: 264px;
+  margin-left: 790px;
+  margin-top: -500px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 6px 50px 11px rgba(34, 60, 80, 0.2);
+  z-index: 99;
+}
+main .Professional-Service-section .container-Professional-Service .img-scissors-color {
+  margin-left: 69px;
+  margin-top: 7px;
+}
+main .Professional-Service-section .container-Professional-Service .img-scrissors {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -70px;
+}
+main .Professional-Service-section .container-Professional-Service .p-prunning {
+  margin-left: 50px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: #374A3D;
+  font-family: "Fredoka", sans-serif;
+}
+main .Professional-Service-section .container-Professional-Service .p-pruning-l {
+  text-align: center;
+  width: 217px;
+  margin-left: 20px;
+  margin-top: -10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Fredoka", sans-serif;
+  color: #374A3D;
+  align-items: center;
+}
+main .Professional-Service-section .container-Professional-Service .card-plant-trees {
+  position: absolute;
+  width: 268px;
+  height: 264px;
+  margin-left: 790px;
+  margin-top: -200px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 6px 50px 11px rgba(34, 60, 80, 0.2);
+  z-index: 99;
+}
+main .Professional-Service-section .container-Professional-Service .img-plant-trees-color {
+  margin-left: 70px;
+  margin-top: 7px;
+}
+main .Professional-Service-section .container-Professional-Service .img-plant-img {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -70px;
+}
+main .Professional-Service-section .container-Professional-Service .p-plant-p {
+  margin-left: 70px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: #374A3D;
+  font-family: "Fredoka", sans-serif;
+}
+main .Professional-Service-section .container-Professional-Service .p-plant-trees {
+  text-align: center;
+  width: 217px;
+  margin-left: 30px;
+  margin-top: -10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Fredoka", sans-serif;
+  color: #374A3D;
+  align-items: center;
+}
+main .Professional-Service-section .container-Professional-Service .card-plant-trees-2 {
+  position: absolute;
+  width: 268px;
+  height: 264px;
+  margin-left: 485px;
+  margin-top: -370px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 6px 50px 11px rgba(34, 60, 80, 0.2);
+  z-index: 99;
+}
+main .Professional-Service-section .container-Professional-Service .img-back-trees {
+  margin-left: 70px;
+  margin-top: 7px;
+}
+main .Professional-Service-section .container-Professional-Service .img-trees {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -80px;
+}
+main .Choose-your-Dream-Plant {
+  display: flex;
+  justify-content: center;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant {
+  width: 1166px;
+  height: 637px;
+  margin-left: -110px;
+  margin-top: 180px;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant .p-choose {
+  text-align: center;
+  margin-top: -10px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 60px;
+  font-family: "Fredoka", sans-serif;
+  color: #374A3D;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant .p-many-vari {
+  text-align: center;
+  width: 530px;
+  margin-left: 300px;
+  margin-top: -10px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: "Fredoka", sans-serif;
+  color: #678570;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant .card-choose {
+  width: 360px;
+  height: 437px;
+  border: 1px solid #678570;
+  margin-top: 60px;
+  border-radius: 30px;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant .card-choose .img-indoors {
+  margin-left: 97px;
+  margin-top: 30px;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant .card-choose .p-indoors {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Fredoka", sans-serif;
+  color: #374A3D;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant .card-choose .star-i-indoors {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 50px;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant .card-choose .p-5 {
+  margin-left: 190px;
+  margin-top: -20px;
+  color: #678570;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 32px;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant .card-choose .p-price {
+  color: #678570;
+  margin-left: 38px;
+  font-weight: 100;
+  font-size: 12px;
+  font-family: "Fredoka", sans-serif;
+  line-height: 32px;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant .card-choose .p-150 {
+  margin-left: 38px;
+  margin-top: -20px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Fredoka", sans-serif;
+  color: #0CA941;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant .card-choose .add-to-cart {
+  position: absolute;
+  width: 128px;
+  height: 43px;
+  margin-top: -70px;
+  margin-left: 195px;
+  border: 1px solid #678570;
+  border-radius: 10px;
+  color: #678570;
+  background-color: rgb(255, 255, 255);
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 32px;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant .card-monstera-deliciosa-care {
+  position: absolute;
+  width: 360px;
+  height: 437px;
+  border: 1px solid #678570;
+  border-radius: 30px;
+  margin-left: 400px;
+  margin-top: -440px;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant .card-monstera-deliciosa-care .img-monsteria {
+  margin-left: 90px;
+  margin-top: 30px;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant .card-monstera-deliciosa-care .p-monsterria {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Fredoka", sans-serif;
+  color: #374A3D;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant .card-monstera-deliciosa-care .star-i {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 50px;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant .card-monstera-deliciosa-care .p-120 {
+  position: absolute;
+  margin-left: 190px;
+  margin-top: -20px;
+  color: #678570;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 32px;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant .card-monstera-deliciosa-care .p-price-p {
+  color: #678570;
+  margin-top: 45px;
+  margin-left: 38px;
+  font-weight: 100;
+  font-size: 12px;
+  font-family: "Fredoka", sans-serif;
+  line-height: 32px;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant .card-monstera-deliciosa-care .p-200 {
+  margin-left: 38px;
+  margin-top: -20px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Fredoka", sans-serif;
+  color: #0CA941;
+}
+main .Choose-your-Dream-Plant .container-choose-your-dream-plant .card-monstera-deliciosa-care .add-to-cartt {
+  position: absolute;
+  width: 128px;
+  height: 43px;
+  margin-top: -60px;
+  margin-left: 195px;
+  border: 1px solid #678570;
+  border-radius: 10px;
+  color: #678570;
+  background-color: rgb(255, 255, 255);
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 32px;
+}
+main .Choose-your-Dream-Plant .section-indoors-left-pootted {
+  position: absolute;
+  width: 360px;
+  height: 437px;
+  border: 1px solid #678570;
+  line-height: 30px;
+  font-family: "Fredoka", sans-serif;
+  border-radius: 30px;
+  margin-left: 803px;
+  margin-top: -440px;
+}
+main .Choose-your-Dream-Plant .section-indoors-left-pootted .img-left-potted {
+  margin-left: 96px;
+  margin-top: 20px;
+}
+main .Choose-your-Dream-Plant .section-indoors-left-pootted .p-indoors-leaf {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Fredoka", sans-serif;
+  color: #374A3D;
+}
+main .Choose-your-Dream-Plant .section-indoors-left-pootted .star-i-indoors-leaf {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 70px;
+}
+main .Choose-your-Dream-Plant .section-indoors-left-pootted .p-183 {
+  margin-top: -20px;
+  margin-left: 210px;
+  color: #678570;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 32px;
+}
+main .Choose-your-Dream-Plant .section-indoors-left-pootted .p-price-pp {
+  color: #678570;
+  margin-left: 60px;
+  font-weight: 100;
+  font-size: 12px;
+  font-family: "Fredoka", sans-serif;
+  line-height: 32px;
+}
+main .Choose-your-Dream-Plant .section-indoors-left-pootted .p-150-p {
+  margin-top: -20px;
+  margin-left: 60px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Fredoka", sans-serif;
+  color: #0CA941;
+}
+main .Choose-your-Dream-Plant .section-indoors-left-pootted .add-to-carttt {
+  position: absolute;
+  width: 128px;
+  height: 43px;
+  border: 1px solid #678570;
+  border-radius: 10px;
+  margin-top: -70px;
+  margin-left: 210px;
+  color: #678570;
+  background-color: rgb(255, 255, 255);
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 32px;
+}
+main .ready-to-bring-idea-for-you-garden {
+  display: flex;
+  justify-content: center;
+}
+main .ready-to-bring-idea-for-you-garden .container-ready-to-bring {
+  width: 1170px;
+  height: 508px;
+  margin-top: 133px;
+  margin-left: -110px;
+  border-radius: 20px;
+  background-color: rgba(239, 243, 239, 0.3294117647);
+  border: 1px solid #0CA941;
+}
+main .ready-to-bring-idea-for-you-garden .container-ready-to-bring .img-ready-to {
+  margin-top: -400px;
+  margin-left: 460px;
+}
+main .ready-to-bring-idea-for-you-garden .container-ready-to-bring .p-ready-to {
+  text-align: center;
+  margin-top: -750px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 30px;
+  font-family: "Fredoka", sans-serif;
+  color: #374A3D;
+}
+main .ready-to-bring-idea-for-you-garden .container-ready-to-bring .p-i-must {
+  text-align: center;
+  width: 626px;
+  margin-left: 270px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #707070;
+  font-family: "Fredoka", sans-serif;
+}
+main .ready-to-bring-idea-for-you-garden .container-ready-to-bring .password {
+  width: 500px;
+  height: 65px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid #0CA941;
+  margin-left: 280px;
+}
+main .ready-to-bring-idea-for-you-garden .container-ready-to-bring .Subscribe-button {
+  position: absolute;
+  width: 200px;
+  height: 69px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid #0CA941;
+  margin-left: -100px;
+  color: rgb(255, 255, 255);
+  background-color: #0CA941;
+}
+main .section-hobby {
+  display: flex;
+  justify-content: center;
+}
+main .section-hobby .container-hobby {
+  width: 1170px;
+  height: 326px;
+  margin-top: 128px;
+  margin-left: -100px;
+}
+main .section-hobby .container-hobby .p-hobby {
+  width: 300px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #374A3D;
+  font-family: "Fredoka", sans-serif;
+}
+main .section-hobby .container-hobby .img-icons {
+  margin-top: 24px;
+}
+main .section-hobby .container-hobby .company-a {
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 250px;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Fredoka", sans-serif;
+}
+main .section-hobby .container-hobby .about-a {
+  position: absolute;
+  justify-content: center;
+  margin-top: -135px;
+  margin-left: 255px;
+  color: #5B7262;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+  text-decoration: none;
+}
+main .section-hobby .container-hobby .history-a {
+  position: absolute;
+  justify-content: center;
+  margin-top: -108px;
+  margin-left: 255px;
+  color: #5B7262;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+  text-decoration: none;
+}
+main .section-hobby .container-hobby .vision-a {
+  position: absolute;
+  justify-content: center;
+  margin-top: -80px;
+  margin-left: 255px;
+  color: #5B7262;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+  text-decoration: none;
+}
+main .section-hobby .container-hobby .career-a {
+  position: absolute;
+  justify-content: center;
+  margin-top: -50px;
+  margin-left: 255px;
+  color: #5B7262;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+  text-decoration: none;
+}
+main .section-hobby .container-hobby .legal-a {
+  position: absolute;
+  justify-content: center;
+  margin-top: -20px;
+  margin-left: 255px;
+  color: #5B7262;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+  text-decoration: none;
+}
+main .section-hobby .container-hobby .blog-a {
+  position: absolute;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 255px;
+  color: #5B7262;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+  text-decoration: none;
+}
+main .section-hobby .container-hobby .support-a {
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 530px;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Fredoka", sans-serif;
+}
+main .section-hobby .container-hobby .contact-a {
+  position: absolute;
+  justify-content: center;
+  margin-top: -135px;
+  margin-left: 530px;
+  color: #5B7262;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+  text-decoration: none;
+}
+main .section-hobby .container-hobby .FAQ-a {
+  position: absolute;
+  justify-content: center;
+  margin-top: -108px;
+  margin-left: 530px;
+  color: #5B7262;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+  text-decoration: none;
+}
+main .section-hobby .container-hobby .help-a {
+  position: absolute;
+  justify-content: center;
+  margin-top: -80px;
+  margin-left: 530px;
+  color: #5B7262;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+  text-decoration: none;
+}
+main .section-hobby .container-hobby .privacy-a {
+  position: absolute;
+  justify-content: center;
+  margin-top: -50px;
+  margin-left: 530px;
+  color: #5B7262;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+  text-decoration: none;
+}
+main .section-hobby .container-hobby .term-a {
+  position: absolute;
+  justify-content: center;
+  margin-top: -20px;
+  margin-left: 530px;
+  color: #5B7262;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+  text-decoration: none;
+}
+main .section-hobby .container-hobby .community-a {
+  position: absolute;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 530px;
+  color: #5B7262;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+  text-decoration: none;
+}
+main .section-hobby .container-hobby .contact {
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 800px;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Fredoka", sans-serif;
+}
+main .section-hobby .container-hobby .mirabazar-a {
+  position: absolute;
+  justify-content: center;
+  margin-top: -135px;
+  margin-left: 800px;
+  color: #5B7262;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+}
+main .section-hobby .container-hobby .email-a {
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 800px;
+  color: black;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Fredoka", sans-serif;
+}
+main .section-hobby .container-hobby .useremail-a {
+  position: absolute;
+  justify-content: center;
+  margin-top: -50px;
+  margin-left: 800px;
+  color: #5B7262;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+  text-decoration: none;
+}
+main .section-hobby .container-hobby .call-us-a {
+  position: absolute;
+  justify-content: center;
+  margin-top: -20px;
+  margin-left: 800px;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+}
+main .section-hobby .container-hobby .number {
+  position: absolute;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 800px;
+  color: #5B7262;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

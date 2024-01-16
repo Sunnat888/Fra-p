@@ -14,9 +14,11 @@ $color-main:#FFE97854;
 $new-color:#53C35154;
 $main-color:#51c3a154;
 $main-lorem:#5B7262;
+$section-color:#678570;
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
 
 header{
     width: 1140px;
@@ -34,9 +36,9 @@ header{
             margin-top: -140px;
             margin-left: -200px;
             img{
-                width: 134px;
+                width: 100px;
                 height: 229px;
-                margin-left: 92px;
+                margin-left: 95px;
                 margin-top: 170px;
             }
         }
@@ -79,7 +81,7 @@ header{
             }
             .yellow-img{
                 margin-top: -150px;
-                margin-left: -92px;
+                margin-left: -102px;
             }
         }
     }
@@ -189,11 +191,847 @@ main{
                 font-weight: 500;
                 font-size: 16px;
                 line-height: 26px;
-                font-family: 'Lato', sans-serif;
-                font-family: 'Libre Franklin', sans-serif;
-                font-family: 'Roboto', sans-serif;
-                font-family: 'Roboto Flex', sans-serif;
+                font-family: 'Fredoka', sans-serif;
+            }
+            .span-item{
+                position: absolute;
+                font-size: 60px;
+                font-weight: 500;
+                color: $green-lorem;
+                margin-left: 450px;
+                margin-top: -140px;
+                font-family: 'Fredoka', sans-serif;
+                background-image: url(/imges/shadow.png);
+                background-repeat: no-repeat;
+                background-size: 90px;
+                background-position: center;
+
+            }
+            .p-25{
+                width: 141px;
+                font-weight: 600;
+                color: $grey-color;
+                margin-left: 450px;
+                margin-top: -70px;
+            }
+            .span-item-2{
+                position: absolute;
+                font-size: 60px;
+                font-weight: 500;
+                color: $green-lorem;
+                margin-left: 650px;
+                margin-top: -120px;
+                font-family: 'Fredoka', sans-serif;
+                background-image: url(/imges/shadow.png);
+                background-repeat: no-repeat;
+                background-size: 90px;
+                background-position: center;
+
+            }
+            .p-10{
+                width: 141px;
+                font-weight: 600;
+                color: $grey-color;
+                margin-left: 650px;
+                margin-top: -50px;
+            }
+            .span-item-3{
+                position: absolute;
+                font-size: 60px;
+                font-weight: 500;
+                color: $green-lorem;
+                margin-left: 830px;
+                margin-top: -120px;
+                font-family: 'Fredoka', sans-serif;
+                background-image: url(/imges/shadow.png);
+                background-repeat: no-repeat;
+                background-size: 90px;
+                background-position: center;
+
+            }
+            .p-60{
+                width: 141px;
+                font-weight: 600;
+                color: $grey-color;
+                margin-left: 830px;
+                margin-top: -50px;
             }
         }
        } 
+       .section-list{
+        display: flex;
+        justify-content: center;
+        .container-section{
+            width: 1100px;
+            height: 527px;
+            margin-top: 114px;
+            .backraund-img{
+                margin-left: -220px;
+                margin-top: -380px;
+            }
+            .section-list-img{
+                position: absolute;
+                width: 600px;
+                height: 500px;
+                margin-top: 10px;
+                margin-left: -720px;
+            }
+          .p-we-are{
+            width: 353px;
+            margin-top: -830px;
+            margin-left: 660px;
+            font-family: 'Fredoka', sans-serif;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 44px;
+            color: $lorem-color;
+          }
+          .p-gilroy{
+            width: 410px;
+            margin-left: 660px;
+            margin-top: -20px;
+            color: $section-color;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 32px;
+          }
+          .read-more-button{
+            margin-left: 660px;
+            margin-top: 40px;
+            border-radius: 50%;
+            background-color: $whtite-color;
+            border: 2px solid $green-lorem;
+            color: $lorem-color;
+            font-family: 'Fredoka', sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 18px;
+            width: 179px;
+            height: 79px;
+          }
+          .img-strel{
+            margin-left: -40px;
+          }
+          .left-st-img{
+            position: absolute;
+            margin-left: 50px;
+            margin-top: 70px;
+          }
+        }
+    }
+    .Professional-Service-section{
+        display: flex;
+        justify-content: center;
+        .container-Professional-Service{
+            width: 1200px;
+            height: 609px;
+            margin-left: 80px;
+            margin-top: 100px;
+            .p-professional{
+                margin-top: 90px;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 60px;
+                font-family: 'Fredoka', sans-serif;
+                color: $lorem-color;
+            }
+            .p-there-are{
+                width: 420px;
+                font-weight: 500;
+                margin-top: -30px;
+                font-size: 18px;
+                line-height: 32px;
+                color: $section-color;
+                font-family: 'Fredoka', sans-serif;
+            }
+            .p-mouris-vel{
+                width: 410px;
+                font-weight: 500;
+                margin-top: 45px;
+                font-size: 18px;
+                line-height: 32px;
+                color: $section-color;
+                font-family: 'Fredoka', sans-serif;
+            }
+            .button-professional{
+                width: 179px;
+                height: 69px;
+                margin-top: 40px;
+                border-radius: 70%;
+                background-color: $whtite-color;
+                border: 2px solid $green-lorem;
+                color: $lorem-color;
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 18px;
+            }
+            .img-profes{
+                margin-left: -40px;
+            }
+            .img-grou{
+                position: absolute;
+                margin-left: 60px;
+                margin-top: 50px;
+            }
+            .img-backround-left{
+                position: absolute;
+                width: 400px;
+                height: 609px;
+                margin-left: 450px;
+                margin-top: -440px;
+            }
+            .img-orenge{
+                position: absolute;
+                margin-left: 560px;
+                margin-top: -290px;
+            }
+            .img-green{
+                position: absolute;
+                margin-left: 850px;
+                margin-top: -130px;
+            }
+            .img-green2{
+                position: absolute;
+                margin-left: 540px;
+                margin-top: -40px;
+        
+            }
+            .card-pruning{
+                position: absolute;
+                width: 268px;
+                height: 264px;
+                margin-left: 790px;
+                margin-top: -500px;
+                border-radius: 5px;
+                background-color: $whtite-color;
+                -webkit-box-shadow: 0px 6px 50px 11px rgba(34, 60, 80, 0.2);
+                -moz-box-shadow: 0px 6px 50px 11px rgba(34, 60, 80, 0.2);
+                box-shadow: 0px 6px 50px 11px rgba(34, 60, 80, 0.2);
+                z-index: 99;
+            }
+           .img-scissors-color{
+            margin-left: 69px;
+            margin-top: 7px;
+           }
+           .img-scrissors{
+            position: absolute;
+            margin-top: 30px;
+            margin-left: -70px;
+           }
+           .p-prunning{
+            margin-left: 50px;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 26px;
+            color: $lorem-color;
+            font-family: 'Fredoka', sans-serif;
+           }
+           .p-pruning-l{
+            text-align: center;
+            width: 217px;
+            margin-left: 20px;
+            margin-top: -10px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: 'Fredoka', sans-serif;
+            color: $lorem-color;
+            align-items: center;
+           }
+           .card-plant-trees{
+            position: absolute;
+            width: 268px;
+            height: 264px;
+            margin-left: 790px;
+            margin-top: -200px;
+            border-radius: 5px;
+            background-color: $whtite-color;
+            -webkit-box-shadow: 0px 6px 50px 11px rgba(34, 60, 80, 0.2);
+            -moz-box-shadow: 0px 6px 50px 11px rgba(34, 60, 80, 0.2);
+            box-shadow: 0px 6px 50px 11px rgba(34, 60, 80, 0.2);
+            z-index: 99;
+           }
+           .img-plant-trees-color{
+            margin-left: 70px;
+            margin-top: 7px;
+           }
+           .img-plant-img{
+            position: absolute;
+            margin-top: 20px;
+            margin-left: -70px;
+           }
+           .p-plant-p{
+            margin-left: 70px;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 26px;
+            color: $lorem-color;
+            font-family: 'Fredoka', sans-serif;
+           }
+           .p-plant-trees{
+            text-align: center;
+            width: 217px;
+            margin-left: 30px;
+            margin-top: -10px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: 'Fredoka', sans-serif;
+            color: $lorem-color;
+            align-items: center;
+           }
+           .card-plant-trees-2{
+            position: absolute;
+            width: 268px;
+            height: 264px;
+            margin-left: 485px;
+            margin-top: -370px;
+            border-radius: 5px;
+            background-color: $whtite-color;
+            -webkit-box-shadow: 0px 6px 50px 11px rgba(34, 60, 80, 0.2);
+            -moz-box-shadow: 0px 6px 50px 11px rgba(34, 60, 80, 0.2);
+            box-shadow: 0px 6px 50px 11px rgba(34, 60, 80, 0.2);
+            z-index: 99;
+           }
+           .img-back-trees{
+            margin-left: 70px;
+            margin-top: 7px;
+           }
+           .img-trees{
+            position: absolute;
+            margin-top: 20px;
+            margin-left: -80px;
+           }
+        }
+    }
+    .Choose-your-Dream-Plant{
+        display: flex;
+        justify-content: center;
+        .container-choose-your-dream-plant{
+            width: 1166px;
+            height: 637px;
+            margin-left: -110px;
+            margin-top: 180px;
+            .p-choose{
+                text-align: center;
+                margin-top: -10px;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 60px;
+                font-family: 'Fredoka', sans-serif;
+                color: $lorem-color;
+            }
+            .p-many-vari{
+                text-align: center;
+                width: 530px;
+                margin-left: 300px;
+                margin-top: -10px;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 32px;
+                font-family: 'Fredoka', sans-serif;
+                color: $section-color;
+            }
+            .card-choose{
+                width: 360px;
+                height: 437px;
+                border: 1px solid $section-color;
+                margin-top: 60px;
+                border-radius: 30px;
+                .img-indoors{
+                    margin-left: 97px;
+                    margin-top: 30px;
+                }
+                .p-indoors{
+                    text-align: center;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 30px;
+                    font-family: 'Fredoka', sans-serif;
+                    color: $lorem-color;
+                }
+                .star-i-indoors{
+                    position: absolute;
+                    margin-top: -20px;
+                    margin-left: 50px;
+                }
+                .p-5{
+                    margin-left: 190px;
+                    margin-top: -20px;
+                    color: $section-color;
+                    font-family: 'Fredoka', sans-serif;
+                    font-weight: 600px;
+                    font-size: 16px;
+                    line-height: 32px;
+                }
+                .p-price{
+                    color: $section-color;
+                    margin-left: 38px;
+                    font-weight: 100;
+                    font-size: 12px;
+                    font-family: 'Fredoka', sans-serif;
+                    line-height: 32px;
+                }
+                .p-150{
+                    margin-left: 38px;
+                    margin-top: -20px;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 30px;
+                    font-family: 'Fredoka', sans-serif;
+                    color: $green-lorem;
+                }
+                .add-to-cart{
+                    position: absolute;
+                    width: 128px;
+                    height: 43px;
+                    margin-top: -70px;
+                    margin-left: 195px;
+                    border: 1px solid $section-color;
+                    border-radius: 10px;
+                    color: $section-color;
+                    background-color: $whtite-color;
+                    font-family: 'Fredoka', sans-serif;
+                    font-weight: 600px;
+                    font-size: 16px;
+                    line-height: 32px;
+                }
+            }
+            .card-monstera-deliciosa-care{
+                position: absolute;
+                width: 360px;
+                height: 437px;
+                border: 1px solid $section-color;
+                border-radius: 30px;
+                margin-left: 400px;
+                margin-top: -440px;
+                .img-monsteria{
+                    margin-left: 90px;
+                    margin-top: 30px;
+                }
+                .p-monsterria{
+                    text-align: center;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 30px;
+                    font-family: 'Fredoka', sans-serif;
+                    color: $lorem-color;   
+                }
+                 .star-i{
+                    position: absolute;
+                    margin-top: -20px;
+                    margin-left: 50px;
+                 }
+                .p-120{
+                    position: absolute;
+                    margin-left: 190px;
+                    margin-top: -20px;
+                    color: $section-color;
+                    font-family: 'Fredoka', sans-serif;
+                    font-weight: 600px;
+                    font-size: 16px;
+                    line-height: 32px;
+                }
+                .p-price-p{
+                    color: $section-color;
+                    margin-top: 45px;
+                    margin-left: 38px;
+                    font-weight: 100;
+                    font-size: 12px;
+                    font-family: 'Fredoka', sans-serif;
+                    line-height: 32px;
+                }
+                .p-200{
+                    margin-left: 38px;
+                    margin-top: -20px;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 30px;
+                    font-family: 'Fredoka', sans-serif;
+                    color: $green-lorem;
+                }
+                .add-to-cartt{
+                    position: absolute;
+                    width: 128px;
+                    height: 43px;
+                    margin-top: -60px;
+                    margin-left: 195px;
+                    border: 1px solid $section-color;
+                    border-radius: 10px;
+                    color: $section-color;
+                    background-color: $whtite-color;
+                    font-family: 'Fredoka', sans-serif;
+                    font-weight: 600px;
+                    font-size: 16px;
+                    line-height: 32px;
+                }
+            }
+        }
+        .section-indoors-left-pootted{
+            position: absolute;
+            width: 360px;
+            height: 437px;
+            border: 1px solid $section-color;
+            line-height: 30px;
+            font-family: 'Fredoka', sans-serif;
+            border-radius: 30px;
+            margin-left: 803px;
+            margin-top: -440px;
+            .img-left-potted{
+                margin-left: 96px;
+                margin-top: 20px;
+            }
+            .p-indoors-leaf{
+                text-align: center;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 30px;
+                font-family: 'Fredoka', sans-serif;
+                color: $lorem-color;
+            }
+            .star-i-indoors-leaf{
+                position: absolute;
+                margin-top: -20px;
+                margin-left: 70px;
+            }
+            .p-183{
+                margin-top: -20px;
+                margin-left: 210px;
+                color: $section-color;
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 600px;
+                font-size: 16px;
+                line-height: 32px;
+            }
+            .p-price-pp{
+                color: $section-color;
+                margin-left: 60px;
+                font-weight: 100;
+                font-size: 12px;
+                font-family: 'Fredoka', sans-serif;
+                line-height: 32px;
+            }
+            .p-150-p{
+                margin-top: -20px;
+                margin-left: 60px;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 30px;
+                font-family: 'Fredoka', sans-serif;
+                color: $green-lorem;
+            }
+            .add-to-carttt{
+                position: absolute;
+                width: 128px;
+                height: 43px;
+                border: 1px solid $section-color;
+                border-radius: 10px;
+                margin-top: -70px;
+                margin-left: 210px;
+                color: $section-color;
+                background-color: $whtite-color;
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 600px;
+                font-size: 16px;
+                line-height: 32px;
+            }
+        }
+    }
+    .ready-to-bring-idea-for-you-garden{
+        display: flex;
+        justify-content: center;
+        .container-ready-to-bring{
+            width: 1170px;
+            height: 508px;
+            margin-top: 133px;
+            margin-left: -110px;
+            border-radius: 20px;
+            background-color: $header-green;
+            border: 1px solid $green-lorem;
+            .img-ready-to{
+                margin-top: -400px;
+                margin-left: 460px;
+            }
+            .p-ready-to{
+                text-align: center;
+                margin-top: -750px;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 30px;
+                font-family: 'Fredoka', sans-serif;
+                color: $lorem-color;
+            }
+            .p-i-must{
+                text-align: center;
+                width: 626px;
+                margin-left: 270px;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 32px;
+                color: $grey-color;
+                font-family: 'Fredoka', sans-serif;
+            }
+            .password{
+                width: 500px;
+                height: 65px;
+                margin-top: 20px;
+                border-radius: 20px;
+                border: 1px solid $green-lorem;
+                margin-left: 280px;
+            }
+            .Subscribe-button{
+                position: absolute;
+                width: 200px;
+                height: 69px;
+                margin-top: 20px;
+                border-radius: 20px;
+                border: 1px solid $green-lorem;
+                margin-left: -100px;
+                color: $whtite-color;
+                background-color: $green-lorem;
+            }
+        }
+    }
+    .section-hobby{
+        display: flex;
+        justify-content: center;
+        .container-hobby{
+            width: 1170px;
+            height: 326px;
+            margin-top: 128px;
+            margin-left: -100px;
+            .p-hobby{
+                width: 300px;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 32px;
+                color: $lorem-color;
+                font-family: 'Fredoka', sans-serif;
+            }
+            .img-icons{
+                margin-top: 24px;
+            }
+            .company-a{
+                position: absolute;
+                margin-top: -200px;
+                margin-left: 250px;
+                color: $black;
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                font-family: 'Fredoka', sans-serif;
+            }
+            .about-a{
+                position: absolute;
+                justify-content: center;
+                margin-top: -135px;
+                margin-left: 255px;
+                color: $main-lorem;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 12px;
+                text-decoration: none;
+            }
+            .history-a{
+                position: absolute;
+                justify-content: center;
+                margin-top: -108px;
+                margin-left: 255px;
+                color: $main-lorem;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 12px;
+                text-decoration: none;
+            }
+            .vision-a{
+                position: absolute;
+                justify-content: center;
+                margin-top: -80px;
+                margin-left: 255px;
+                color: $main-lorem;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 12px;
+                text-decoration: none;
+            }
+            .career-a{
+                position: absolute;
+                justify-content: center;
+                margin-top: -50px;
+                margin-left: 255px;
+                color: $main-lorem;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 12px;
+                text-decoration: none;
+            }
+            .legal-a{
+                position: absolute;
+                justify-content: center;
+                margin-top: -20px;
+                margin-left: 255px;
+                color: $main-lorem;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 12px;
+                text-decoration: none;
+            }
+            .blog-a{
+                position: absolute;
+                justify-content: center;
+                margin-top: 20px;
+                margin-left: 255px;
+                color: $main-lorem;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 12px;
+                text-decoration: none;
+            }
+            .support-a{
+                position: absolute;
+                margin-top: -200px;
+                margin-left: 530px;
+                color: $black;
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                font-family: 'Fredoka', sans-serif;
+            }
+            .contact-a{
+                position: absolute;
+                justify-content: center;
+                margin-top: -135px;
+                margin-left: 530px;
+                color: $main-lorem;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 12px;
+                text-decoration: none;
+            }
+            .FAQ-a{
+                position: absolute;
+                justify-content: center;
+                margin-top: -108px;
+                margin-left: 530px;
+                color: $main-lorem;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 12px;
+                text-decoration: none;
+            }
+            .help-a{
+                position: absolute;
+                justify-content: center;
+                margin-top: -80px;
+                margin-left: 530px;
+                color: $main-lorem;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 12px;
+                text-decoration: none;
+            }
+            .privacy-a{
+                position: absolute;
+                justify-content: center;
+                margin-top: -50px;
+                margin-left: 530px;
+                color: $main-lorem;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 12px;
+                text-decoration: none;
+            }
+            .term-a{
+                position: absolute;
+                justify-content: center;
+                margin-top: -20px;
+                margin-left: 530px;
+                color: $main-lorem;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 12px;
+                text-decoration: none;
+            }
+            .community-a{
+                position: absolute;
+                justify-content: center;
+                margin-top: 20px;
+                margin-left: 530px;
+                color: $main-lorem;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 12px;
+                text-decoration: none;
+            }
+            .contact{
+                position: absolute;
+                margin-top: -200px;
+                margin-left: 800px;
+                color: $black;
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                font-family: 'Fredoka', sans-serif;
+            }
+            .mirabazar-a{
+                position: absolute;
+                justify-content: center;
+                margin-top: -135px;
+                margin-left: 800px;
+                color: $main-lorem;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                text-decoration: none;
+            }
+            .email-a{
+                position: absolute;
+                margin-top: -80px;
+                margin-left: 800px;
+                color: $black;
+                text-decoration: none;
+                font-weight: 200;
+                font-size: 18px;
+                line-height: 22px;
+                font-family: 'Fredoka', sans-serif;
+            }
+            .useremail-a{
+                position: absolute;
+                justify-content: center;
+                margin-top: -50px;
+                margin-left: 800px;
+                color: $main-lorem;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 12px;
+                text-decoration: none;
+            }
+            .call-us-a{
+                position: absolute;
+                justify-content: center;
+                margin-top: -20px;
+                margin-left: 800px;
+                color: $black;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 24px;
+                text-decoration: none;
+            }
+            .number{
+                position: absolute;
+                justify-content: center;
+                margin-top: 20px;
+                margin-left: 800px;
+                color: $main-lorem;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 12px;
+                text-decoration: none;
+            }
+        }
+    }
 }
